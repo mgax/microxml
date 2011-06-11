@@ -15,9 +15,12 @@ def test_well_formed():
 def handle_events(event_iter):
     root_ns = None
     for element in event_iter:
-        nsmap = getattr(element, 'nsmap', None) or {}
-        if None in nsmap:
-            root_ns = nsmap[None]
+        if getattr(element, 'getparent', lambda: 'x')() is None:
+            nsmap = element.nsmap
+            if None in nsmap:
+                root_ns = nsmap[None]
+        else:
+            nsmap = {}
 
         tag = element.tag
         if root_ns is not None:
