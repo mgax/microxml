@@ -25,6 +25,7 @@ def parse_stream(stream):
     #SQUOTE = 8
     DQUOTE = 9
     ATTR = 10
+    ETAGO = 11
 
     if DEBUG:
         state_name = {
@@ -38,6 +39,7 @@ def parse_stream(stream):
             8:  'SQUOTE',
             9:  'DQUOTE',
             10: 'ATTR',
+            11: 'ETAGO',
         }
 
     # state of parser
@@ -57,8 +59,12 @@ def parse_stream(stream):
                 tag = ""
 
         elif state == LT:
-            state = INENAME
-            tag += ch
+            if ch == '/':
+                state = ETAGO
+
+            else:
+                state = INENAME
+                tag += ch
 
         elif state == INENAME:
             if ch == '>':
@@ -117,6 +123,14 @@ def parse_stream(stream):
             elif ch == '>':
                 state = INDATA
                 yield Element(tag, **attrib)
+
+
+        elif state == ETAGO:
+            if ch == '>':
+                state = INDATA
+
+        else:
+            assert False, "Unknown state: %r" % state
 
 
 def fromstring(s):
