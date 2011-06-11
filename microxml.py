@@ -27,6 +27,8 @@ def parse_stream(stream):
     ATTR = 10
     ETAGO = 11
     NESTC = 12
+    BANG = 13
+    DOCTYPE = 14
 
     if DEBUG:
         state_name = {
@@ -42,6 +44,8 @@ def parse_stream(stream):
             10: 'ATTR',
             11: 'ETAGO',
             12: 'NESTC',
+            13: 'BANG',
+            14: 'DOCTYPE',
         }
 
     # state of parser
@@ -61,7 +65,11 @@ def parse_stream(stream):
                 tag = ""
 
         elif state == LT:
-            if ch == '/':
+            if ch == '!':
+                state = BANG
+                name = ""
+
+            elif ch == '/':
                 state = ETAGO
 
             else:
@@ -134,8 +142,18 @@ def parse_stream(stream):
             if ch == '>':
                 state = INDATA
 
-
         elif state == ETAGO:
+            if ch == '>':
+                state = INDATA
+
+        elif state == BANG:
+            if ch in WHITESPACE:
+                state = DOCTYPE
+
+            else:
+                name += ch
+
+        elif state == DOCTYPE:
             if ch == '>':
                 state = INDATA
 
