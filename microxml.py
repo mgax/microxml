@@ -26,6 +26,7 @@ def parse_stream(stream):
     DQUOTE = 9
     ATTR = 10
     ETAGO = 11
+    NESTC = 12
 
     if DEBUG:
         state_name = {
@@ -40,6 +41,7 @@ def parse_stream(stream):
             9:  'DQUOTE',
             10: 'ATTR',
             11: 'ETAGO',
+            12: 'NESTC',
         }
 
     # state of parser
@@ -67,13 +69,17 @@ def parse_stream(stream):
                 tag += ch
 
         elif state == INENAME:
-            if ch == '>':
+            if ch in WHITESPACE:
+                state = INTAG
+                attrib = {}
+
+            elif ch == '>':
                 state = INDATA
                 yield Element(tag)
 
-            elif ch in WHITESPACE:
-                state = INTAG
-                attrib = {}
+            elif ch == '/':
+                state = NESTC
+                yield Element(tag)
 
             else:
                 tag += ch
@@ -123,6 +129,10 @@ def parse_stream(stream):
             elif ch == '>':
                 state = INDATA
                 yield Element(tag, **attrib)
+
+        elif state == NESTC:
+            if ch == '>':
+                state = INDATA
 
 
         elif state == ETAGO:
