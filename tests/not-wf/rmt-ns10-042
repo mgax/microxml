@@ -1,0 +1,3 @@
+<!-- Colon in PI name -->
+<?a:b bogus?>
+<foo/>

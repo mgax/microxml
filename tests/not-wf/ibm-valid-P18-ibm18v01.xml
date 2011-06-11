@@ -1,0 +1,2 @@
+<!-- testing CDSect with CDStart CData CDEnd -->
+<student>My Name is SnowMan. <![CDATA[This is <normal> text]]> </student>

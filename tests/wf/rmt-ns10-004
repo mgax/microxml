@@ -1,0 +1,2 @@
+<!-- Namespace name test: a relative URI (deprecated) -->
+<foo xmlns="namespaces/zaphod"/>

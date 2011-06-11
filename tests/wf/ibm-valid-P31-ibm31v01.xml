@@ -1,0 +1,4 @@
+<animal>
+   <tiger/>
+</animal>
+<!-- tests extSubsetDecl with combinations of markupdecls, conditionalSects, PEReferences and white spaces -->

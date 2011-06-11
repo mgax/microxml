@@ -1,0 +1,5 @@
+<!-- validity constraint check for Production 56(Negative Test)-->
+<test>
+<nametokens thistoken="@lang y: #country"/>
+In an attribute declaration, values of type NMTOKENS does not match the Nmtokens production
+</test>

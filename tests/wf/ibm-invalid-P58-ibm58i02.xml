@@ -1,0 +1,6 @@
+<!-- validity test for Production 58(Negative Test-->
+<test>
+<blob content-encoding="raw"/>
+The attribute values of type NOTATION does match any of the notation names included in the
+declaration, but some of notation names in the declaration have not been declared
+</test>

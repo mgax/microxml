@@ -1,0 +1,4 @@
+<!-- syntax test for Production 63-->
+<animal a="TIGER1">
+Negative test.  Missing required field( '[' is missing after IGNORE ).
+</animal>

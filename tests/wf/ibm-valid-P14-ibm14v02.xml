@@ -1,0 +1,3 @@
+<!-- testing chardata with white space -->
+<student first="Eric"> 
+ 	 &#xD; </student>

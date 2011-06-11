@@ -1,0 +1,2 @@
+<!-- Reserved prefixes and namespaces: using the xml prefix undeclared -->
+<foo xml:lang="en"/>

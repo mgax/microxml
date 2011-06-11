@@ -1,0 +1,2 @@
+<!-- testing CData with empty string -->
+<student>My Name is SnowMan. <![CDATA[]]></student>

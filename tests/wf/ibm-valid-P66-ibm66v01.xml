@@ -1,0 +1,16 @@
+<root>
+Test all valid Charater references for P66:
+			
+
+
+
+
+
+&#xD;
+&#xAB; &#xAB; &#xCD; &#xCD; &#xEF; &#xEF;
+C C _
+  &#xD7A3; &#xAC00;
+&#xF900; &#xFFFD;
+&#x10000; &#x10FFFF;
+</root>
+<!--* a valid test for P66 *-->

@@ -1,0 +1,5 @@
+<!-- validity constraint check for Production 56(Negative Test)-->
+<test>
+<nametoken thistoken="x : image"/>
+In an attribute declaration, values of type NMTOKEN does not match the Nmtoken production
+</test>

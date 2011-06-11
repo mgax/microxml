@@ -1,0 +1,5 @@
+<!-- test valid syntax for Production 55-->
+<StType>
+<a att="Hello"/>
+Testing with a valid stringType attribute 
+</StType>

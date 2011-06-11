@@ -1,0 +1,2 @@
+<!-- Reserved prefixes and namespaces: binding a reserved prefix -->
+<foo xmlns:xml2="http://example.org/namespace"/>

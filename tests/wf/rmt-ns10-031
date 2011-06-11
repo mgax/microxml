@@ -1,0 +1,3 @@
+<!-- Reserved prefixes and namespaces: declaring the xmlns prefix
+     with its correct URI (illegal) -->
+<foo/>

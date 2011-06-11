@@ -1,0 +1,5 @@
+<!-- syntax test for Production 62-->
+<animal>
+ <tiger/>
+Negative test.  Wrong Ordering. External subset declaration prior to the keyword INCLUDE
+</animal>

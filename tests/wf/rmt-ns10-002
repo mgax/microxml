@@ -1,0 +1,3 @@
+<!-- Namespace name test: a syntactically plausible URI with a 
+     fictitious scheme -->
+<foo xmlns="zarquon://example.org/namespace"/>

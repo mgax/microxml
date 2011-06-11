@@ -1,0 +1,4 @@
+<!-- syntax test for Production 63-->
+<animal a="tiger">
+Positive test. Test for IGNORE with pattern 2.
+</animal>

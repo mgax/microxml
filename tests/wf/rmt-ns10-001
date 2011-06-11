@@ -1,0 +1,2 @@
+<!-- Namespace name test: a perfectly good http URI -->
+<foo xmlns="http://example.org/namespace"/>

@@ -1,0 +1,2 @@
+<!-- The xml namespace must not be declared as the default namespace. -->
+<foo/>

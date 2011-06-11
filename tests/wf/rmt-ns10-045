@@ -1,0 +1,2 @@
+<!-- Colon in ID attribute name -->
+<foo id="a:b"/>

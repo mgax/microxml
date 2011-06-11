@@ -1,0 +1,3 @@
+<!-- This against VC of P28. The Name in the document type declaration
+ does not match the element type of the root element. -->
+<animal/>

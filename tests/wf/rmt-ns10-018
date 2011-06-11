@@ -1,0 +1,2 @@
+<!-- Simple legal case: default namespace -->
+<foo xmlns="http://example.org/namespace"/>

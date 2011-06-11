@@ -1,0 +1,2 @@
+<attributes notation="nonce" nmtoken="this-gets-normalized" nmtokens="this also gets normalized" id="internal42" idref="internal42" idrefs="internal42 internal42 internal42" entity="unparsed-1" entities="unparsed-1 unparsed-2" cdata="nothing happens to this one!"/>
+<?pi equals three?>

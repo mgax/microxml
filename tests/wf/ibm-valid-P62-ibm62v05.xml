@@ -1,0 +1,5 @@
+<!-- syntax test for Production 62-->
+<animal>
+ <tiger/>
+Positive test. Missing external subset declaration.
+</animal>

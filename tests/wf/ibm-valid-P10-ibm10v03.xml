@@ -1,0 +1,2 @@
+<!-- testing AttValue string with a single quote inside -->
+<student first="Snow'" last="Man">My Name is Snow Man'. </student>

@@ -1,0 +1,6 @@
+<root>
+    <child>
+    The whitespace before and after this element keeps
+    this from being standalone.
+    </child>
+</root>

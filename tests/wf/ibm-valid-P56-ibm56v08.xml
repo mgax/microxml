@@ -1,0 +1,6 @@
+<!-- validity constraint check for Production 56(Positive Test)it is a DTD-->
+<test>
+<landscape sun="image"/>
+values of type ENTITY match the Name production and the ENTITY value
+matches the name of an unparsed entity declared in the DTD.
+</test>

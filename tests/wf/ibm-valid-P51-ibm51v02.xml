@@ -1,0 +1,8 @@
+<root>
+  <a> Element type a </a>
+  <b> Element type b </b>
+  <c> Element type c </c>
+  <d> Element type d <c/> </d>
+  <e> Element type e <a/> <b/> <c/> </e>
+</root>
+<!--* a valid test: tests P51 VC: Proper Group/PE Nesting *-->

@@ -1,0 +1,47 @@
+<!-- Legal Names containing one to four characters in order from the list below  used in Attr delcs and attributes.  x003A, 0x00C0, 0x00C1, 0x02FE, 0x00C2, 0x00C3, 0x02FD, 0x02FF, 0x0370, 0x0371, 0x037C, 0x037D, 0x037F, 0x0380, 0x1FFE, 0x1FFF, 0x200C, 0x200D, 0x2070, 0x2071, 0x218E, 0x218F, 0x2C00, 0x2C01, 0x2FEE, 0x2FEF, 0x3001, 0x3002, 0xD7FE, 0xD7FF, 0xF900, 0xF901, 0xFFFD, 0x002D, 0x002E, 0x0041, 0x007A, 0x0030, 0x00B7, 0x0300, 0x0301, 0x036E, 0x036F, 0x203F, 0x2040 -->
+<LegalName>
+<LegalName0 attr0="Name:"/>
+<LegalName1 attr1="Name&#xC0;"/>
+<LegalName2 attr2="Name&#xC1;"/>
+<LegalName3 attr3="Name&#x2FE;"/>
+<LegalName4 attr4="Name&#xC2;"/>
+<LegalName5 attr5="Name&#xC3;"/>
+<LegalName6 attr6="Name&#x2FD;"/>
+<LegalName7 attr7="Name&#x2FF;"/>
+<LegalName8 attr8="Name&#x370;"/>
+<LegalName9 attr9="Name&#x371;"/>
+<LegalName10 attr10="Name&#x37C;"/>
+<LegalName11 attr11="Name&#x37D;"/>
+<LegalName12 attr12="Name&#x37F;"/>
+<LegalName13 attr13="Name&#x380;"/>
+<LegalName14 attr14="Name&#x1FFE;"/>
+<LegalName15 attr15="Name&#x1FFF;"/>
+<LegalName16 attr16="Name&#x200C;"/>
+<LegalName17 attr17="Name&#x200D;"/>
+<LegalName18 attr18="Name&#x2070;"/>
+<LegalName19 attr19="Name&#x2071;"/>
+<LegalName20 attr20="Name&#x218E;"/>
+<LegalName21 attr21="Name&#x218F;"/>
+<LegalName22 attr22="Name&#x2C00;"/>
+<LegalName23 attr23="Name&#x2C01;"/>
+<LegalName24 attr24="Name&#x2FEE;"/>
+<LegalName25 attr25="Name&#x2FEF;"/>
+<LegalName26 attr26="Name&#x3001;"/>
+<LegalName27 attr27="Name&#x3002;"/>
+<LegalName28 attr28="Name&#xD7FE;"/>
+<LegalName29 attr29="Name&#xD7FF;"/>
+<LegalName30 attr30="Name&#xF900;"/>
+<LegalName31 attr31="Name&#xF901;"/>
+<LegalName32 attr32="Name&#xFFFD;"/>
+<LegalName33 attr33="Name-"/>
+<LegalName34 attr34="Name."/>
+<LegalName35 attr35="NameA"/>
+<LegalName36 attr36="Namez"/>
+<LegalName37 attr37="Name0"/>
+<LegalName38 attr38="Name&#xB7;"/>
+<LegalName39 attr39="Name&#x300;"/>
+<LegalName40 attr40="Name&#x301;"/>
+<LegalName41 attr41="Name&#x36E;"/>
+<LegalName42 attr42="Name&#x36F;"/>
+<LegalName43 attr43="Name&#x203F;"/>
+</LegalName>

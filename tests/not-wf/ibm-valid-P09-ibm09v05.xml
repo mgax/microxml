@@ -1,0 +1,2 @@
+<!-- testing entity value with combination reference -->
+<student>This is a test of &combine;</student>

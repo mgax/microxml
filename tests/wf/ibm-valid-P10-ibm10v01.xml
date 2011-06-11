@@ -1,0 +1,2 @@
+<!-- testing AttValue with empty char inside double quote -->
+<student first="" last="">My Name is Snow  Man. </student>

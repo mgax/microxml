@@ -1,0 +1,5 @@
+<!-- syntax test for Production 62-->
+<animal>
+ <tiger/>
+Negative test.  Missing the required field INCLUDE.
+</animal>

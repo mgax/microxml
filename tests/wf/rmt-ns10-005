@@ -1,0 +1,2 @@
+<!-- Namespace name test: a same-document relative URI (deprecated) -->
+<foo xmlns="#beeblebrox"/>

@@ -1,0 +1,5 @@
+<!-- syntax test for Production 62-->
+<animal>
+ <tiger/>
+Negative test.  Wrong character is used is used.
+</animal>

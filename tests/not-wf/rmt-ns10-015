@@ -1,0 +1,2 @@
+<!-- Bad QName syntax: colon at start -->
+<:foo/>

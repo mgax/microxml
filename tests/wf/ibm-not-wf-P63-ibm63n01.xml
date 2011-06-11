@@ -1,0 +1,4 @@
+<!-- syntax test for Production 63-->
+<animal a="TIGER1">
+Negative test. Case sensitive(ignore is used instead of IGNORE).
+</animal>

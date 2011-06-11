@@ -1,0 +1,7 @@
+<!--* illgal element in b's Mixed content *-->
+<root><a/><b>
+   <c/> 
+   content of b element
+   <a/>
+   could not have 'a' as 'b's content
+</b></root>

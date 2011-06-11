@@ -1,0 +1,5 @@
+<root><a/><b>
+   <c/>
+   content of b element
+</b></root>
+<!--* a invalid test: tests VC:Proper Group/PE Nesting in P49 *-->

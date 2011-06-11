@@ -1,0 +1,2 @@
+<!-- Simple legal case: prefixed element -->
+<a:foo xmlns:a="http://example.org/namespace"/>

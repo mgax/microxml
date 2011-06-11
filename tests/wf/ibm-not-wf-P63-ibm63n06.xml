@@ -1,0 +1,4 @@
+<!-- syntax test for Production 63-->
+<animal a="TIGER1">
+Negative test.  Wrong Ordering. Ignore sect contents preceding IGNORE.
+</animal>

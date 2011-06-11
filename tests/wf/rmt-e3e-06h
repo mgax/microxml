@@ -1,0 +1,2 @@
+<!-- Default values for enumerated attributes must match one of the enumerated values. -->
+<foo a="one"/>

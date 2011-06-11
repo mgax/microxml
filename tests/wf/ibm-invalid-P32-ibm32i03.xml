@@ -1,0 +1,5 @@
+<!-- This is against VC: Standalone Document Declaration in P32
+ The standalone document declaration has the value "yes", there is an external
+ markup declaration of attributes with values containing character reference.
+-->
+<animal class="   NMTOKEN_with_leading_and_trailing_space  "/>

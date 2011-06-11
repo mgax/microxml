@@ -1,0 +1,4 @@
+<!-- syntax test for Production 63-->
+<animal a="TIGER1">
+Negative test. Extra '[' is used before IGNORE.
+</animal>
